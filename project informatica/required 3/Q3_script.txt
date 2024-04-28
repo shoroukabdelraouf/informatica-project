@@ -1,0 +1,47 @@
+
+CREATE TABLE RTRTRANS_DEFAULT1
+(
+    CustomerId2      number(8),
+    Surname2         varchar2(17),
+    CreditScore2     number(3),
+    Gender2          varchar2(6),
+    Age2             number(2),
+    Tenure2          number(2),
+    NumOfProducts2   number(1),
+    HasCrCard2       number(1),
+    EstimatedSalary2 number(9),
+    Exited2          number(1)
+);
+
+CREATE TABLE RTRTRANS_G2
+(
+    CustomerId3      number(8),
+    Surname3         varchar2(17),
+    CreditScore3     number(3),
+    Gender3          varchar2(6),
+    Age3             number(2),
+    Tenure3          number(2),
+    NumOfProducts3   number(1),
+    HasCrCard3       number(1),
+    EstimatedSalary3 number(9),
+    Exited3          number(1)
+);
+
+CREATE TABLE RTRTRANS_G1
+(
+    CustomerId1      number(8),
+    Surname1         varchar2(17),
+    CreditScore1     number(3),
+    Gender1          varchar2(6),
+    Age1             number(2),
+    Tenure1          number(2),
+    NumOfProducts1   number(1),
+    HasCrCard1       number(1),
+    EstimatedSalary1 number(9),
+    Exited1          number(1)
+);
+
+
+select * from RTRTRANS_G1;
+select * from RTRTRANS_G2;
+select * from RTRTRANS_DEFAULT1;
